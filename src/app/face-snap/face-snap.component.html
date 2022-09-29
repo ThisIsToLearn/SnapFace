@@ -1,0 +1,5 @@
+<div class="face-snap-card" [ngClass]="{ snapped: buttonText==='Oops, un Snap!'}">
+<h2>{{ faceSnap.title | uppercase }}</h2>
+<img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+<button (click)="onViewFaceSnap()">VOIR</button>
+</div>

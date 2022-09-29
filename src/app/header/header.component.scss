@@ -1,0 +1,26 @@
+header{
+    text-align: center;
+    background-color: rgb(79, 79, 79);
+    color: rgb(241, 235, 235);
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+a{
+    margin: 0 10px;
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.active{
+    color: rgb(255, 225, 0);
+    text-decoration: underline;
+}
